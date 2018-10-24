@@ -11,6 +11,11 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
+  }  
+}
+@media (max-width: 992px) {
+  .list-group .list-group-item{
+  	overflow-x: scroll;
   }
 }
 
@@ -18,6 +23,6 @@ body {
   margin-bottom: 30px;
 }
 
-.pagination {
+/*.pagination {(in the future)
   margin-bottom: 30px;
-}
+}*/
